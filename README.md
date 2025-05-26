@@ -62,6 +62,8 @@ npm start
 
 Aplikasi akan berjalan pada [http://localhost:3000](http://localhost:3000).
 
+Anda dapat mempelajari lebih lanjut tentang backend di [Backend Ngaji Digital](https://github.com/isaacnewton123/backend-ngaji-digital)
+
 ### Konfigurasi
 
 Pastikan backend sudah berjalan pada port 5000 untuk fungsionalitas penuh. Lihat README.md pada folder Backend untuk instruksi pengaturan backend.
