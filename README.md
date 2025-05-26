@@ -9,6 +9,8 @@
 
 NgajiDigital adalah platform pembelajaran ilmu Islam berbasis AI yang dikembangkan untuk mempermudah akses terhadap pengetahuan tata bahasa Arab (Nahwu). Platform ini menggunakan sumber pengetahuan dari kitab "Mukhtashor Jiddan Syarah" karya Syekh Ahmad Zaini Dahlan.
 
+> 🔗 **[Lihat Repository Backend](https://github.com/isaacnewton123/backend-ngaji-digital)**
+
 ### ✨ Fitur Utama
 
 - **AI Nahwu Chat**: Berinteraksi dengan AI untuk mempelajari dan menganalisis tata bahasa Arab
