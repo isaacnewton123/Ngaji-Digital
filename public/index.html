@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#2563eb" />
     <meta
       name="description"
-      content="NgajiDigital - Learn Islamic sciences with AI"
+      content="NgajiDigital - Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah"
     />
+    <meta name="author" content="Isaac Newton" />
+    <meta name="keywords" content="ngaji, belajar islam, nahwu, shorof, arabic grammar, ai islam, ai arabic, belajar bahasa arab" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="NgajiDigital - Belajar Ilmu Islam dengan AI" />
+    <meta property="og:description" content="Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:url" content="https://ngaji-digital.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="NgajiDigital" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@isaac_newton252" />
+    <meta name="twitter:creator" content="@isaac_newton252" />
+    <meta name="twitter:title" content="NgajiDigital - Belajar Ilmu Islam dengan AI" />
+    <meta name="twitter:description" content="Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+    
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!-- Add Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,10 +47,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>NgajiDigital</title>
+    <title>NgajiDigital - Belajar Ilmu Islam dengan AI</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7DKEPRGQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-T7DKEPRGQ3');
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Anda perlu mengaktifkan JavaScript untuk menjalankan aplikasi ini.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
