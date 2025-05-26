@@ -296,14 +296,14 @@ const NahwuChat: React.FC = () => {
 
     try {
       // First check if API is healthy
-      const healthCheck = await axios.get('http://localhost:5000/api/health');
+      const healthCheck = await axios.get('https://ngajidigital.isaacnewton.site/api/health');
       
       if (healthCheck.data.apiKeyStatus === "missing") {
         throw new Error("API_KEY_MISSING");
       }
       
       // Make API call to backend with sessionId
-      const response = await axios.post('http://localhost:5000/api/chat', {
+      const response = await axios.post('https://ngajidigital.isaacnewton.site/api/chat', {
         message: input,
         sessionId: sessionId // Include the session ID if available
       });
@@ -335,7 +335,7 @@ const NahwuChat: React.FC = () => {
       } else if (!navigator.onLine) {
         errorText = 'Tidak dapat terhubung ke server. Periksa koneksi internet Anda.';
       } else if (error.code === "ECONNREFUSED" || error.message.includes("Network Error")) {
-        errorText = 'Tidak dapat terhubung ke server backend. Pastikan server backend berjalan di http://localhost:5000';
+        errorText = 'Tidak dapat terhubung ke server backend. Pastikan server backend berjalan dan dapat diakses di https://ngajidigital.isaacnewton.site';
       }
       
       // Display error message
