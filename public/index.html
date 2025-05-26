@@ -7,36 +7,109 @@
     <meta name="theme-color" content="#2563eb" />
     <meta
       name="description"
-      content="NgajiDigital - Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah"
+      content="NgajiDigital - Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah dan interaktif"
     />
     <meta name="author" content="Isaac Newton" />
-    <meta name="keywords" content="ngaji, belajar islam, nahwu, shorof, arabic grammar, ai islam, ai arabic, belajar bahasa arab" />
+    <meta name="keywords" content="ngaji, belajar islam, nahwu, shorof, arabic grammar, ai islam, ai arabic, belajar bahasa arab, kecerdasan buatan, kitab kuning, islamic learning, i'rab, pembelajaran online" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://ngaji-digital.netlify.app" />
+    
+    <!-- Mobile App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="NgajiDigital" />
+    <meta name="application-name" content="NgajiDigital" />
+    <meta name="format-detection" content="telephone=no" />
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="NgajiDigital - Belajar Ilmu Islam dengan AI" />
-    <meta property="og:description" content="Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah" />
-    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:description" content="Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah dan interaktif" />
+    <meta property="og:image" content="https://ngaji-digital.netlify.app/og-image.png" />
     <meta property="og:url" content="https://ngaji-digital.netlify.app" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="NgajiDigital" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Logo NgajiDigital - Platform pembelajaran Islam berbasis AI" />
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@isaac_newton252" />
     <meta name="twitter:creator" content="@isaac_newton252" />
     <meta name="twitter:title" content="NgajiDigital - Belajar Ilmu Islam dengan AI" />
-    <meta name="twitter:description" content="Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah" />
-    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta name="twitter:description" content="Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab dengan mudah dan interaktif" />
+    <meta name="twitter:image" content="https://ngaji-digital.netlify.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Logo NgajiDigital - Platform pembelajaran Islam berbasis AI" />
     
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!-- Add Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NgajiDigital",
+        "url": "https://ngaji-digital.netlify.app",
+        "logo": "https://ngaji-digital.netlify.app/logo512.png",
+        "description": "Platform pembelajaran ilmu Islam berbasis AI untuk mempelajari Nahwu dan ilmu bahasa Arab",
+        "founder": "Isaac Newton",
+        "foundingDate": "2024",
+        "email": "hanif@isaacnewton.site",
+        "sameAs": [
+          "https://x.com/isaac_newton252",
+          "https://github.com/isaacnewton123",
+          "https://www.youtube.com/@isaacnewton7777",
+          "https://www.instagram.com/hanifmaulana2",
+          "https://www.facebook.com/hanif.maulana.108"
+        ]
+      }
+    </script>
+    
+    <!-- Structured Data - Website -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://ngaji-digital.netlify.app",
+        "name": "NgajiDigital",
+        "description": "Platform pembelajaran ilmu Islam berbasis AI",
+        "inLanguage": "id-ID",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ngaji-digital.netlify.app/nahwu-chat?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    
+    <!-- Structured Data - Educational App -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "NgajiDigital",
+        "operatingSystem": "Web",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "IDR"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "5"
+        }
+      }
+    </script>
+    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -47,7 +120,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>NgajiDigital - Belajar Ilmu Islam dengan AI</title>
+    <title>NgajiDigital - Platform Pembelajaran Ilmu Islam Berbasis AI | Belajar Nahwu & Bahasa Arab</title>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7DKEPRGQ3"></script>
