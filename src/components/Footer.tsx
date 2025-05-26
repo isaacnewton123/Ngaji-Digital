@@ -6,9 +6,7 @@ import {
   Link,
   IconButton,
   Divider,
-  useTheme,
-  alpha,
-  Alert
+  alpha
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { motion } from 'framer-motion';
@@ -81,7 +79,6 @@ const DisclaimerBox = styled(Box)(({ theme }) => ({
 }));
 
 const Footer: React.FC = () => {
-  const theme = useTheme();
   const currentYear = new Date().getFullYear();
 
   const footerLinks = [

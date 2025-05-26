@@ -11,7 +11,6 @@ import {
   Drawer,
   List,
   ListItem,
-  ListItemText,
   Divider,
   useScrollTrigger,
   Slide,

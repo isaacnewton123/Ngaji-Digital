@@ -4,9 +4,7 @@ import {
   Container, 
   Typography, 
   alpha,
-  Divider,
   Button,
-  Grid,
   Link,
   Avatar,
   IconButton

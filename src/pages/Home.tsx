@@ -38,16 +38,17 @@ const FeatureCard = styled(Card)(({ theme }) => ({
   },
 }));
 
-const FeatureIcon = styled(Box)(({ theme }) => ({
-  display: 'flex',
-  justifyContent: 'center',
-  marginBottom: theme.spacing(2.5),
-  '& svg': {
-    fontSize: 56,
-    color: theme.palette.primary.main,
-    filter: `drop-shadow(0 4px 8px ${alpha(theme.palette.primary.main, 0.25)})`,
-  },
-}));
+// Rename to avoid warning since we're not using it yet
+// const FeatureIconWrapper = styled(Box)(({ theme }) => ({
+//   display: 'flex',
+//   justifyContent: 'center',
+//   marginBottom: theme.spacing(2.5),
+//   '& svg': {
+//     fontSize: 56,
+//     color: theme.palette.primary.main,
+//     filter: `drop-shadow(0 4px 8px ${alpha(theme.palette.primary.main, 0.25)})`,
+//   },
+// }));
 
 const FeatureIconCircle = styled(Box)(({ theme }) => ({
   width: 90,
